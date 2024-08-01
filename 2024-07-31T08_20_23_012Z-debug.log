@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/wcvz8jakxklg/.nvm/versions/node/v8.17.0/bin/node',
+1 verbose cli   '/home/wcvz8jakxklg/.nvm/versions/node/v8.17.0/bin/npm',
+1 verbose cli   'start' ]
+2 info using npm@6.13.4
+3 info using node@v8.17.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle backend@1.0.0~prestart: backend@1.0.0
+6 info lifecycle backend@1.0.0~start: backend@1.0.0
+7 verbose lifecycle backend@1.0.0~start: unsafe-perm in lifecycle true
+8 verbose lifecycle backend@1.0.0~start: PATH: /home/wcvz8jakxklg/.nvm/versions/node/v8.17.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/wcvz8jakxklg/public_html/api.infoportal.co.in/node_modules/.bin:/home/wcvz8jakxklg/.nvm/versions/node/v8.17.0/bin:/usr/local/cpanel/3rdparty/lib/path-bin:/usr/share/Modules/bin:/opt/alt/ruby27/bin:/usr/local/cpanel/3rdparty/lib/path-bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/cpanel/composer/bin:/opt/puppetlabs/bin:/home/wcvz8jakxklg/.local/bin:/home/wcvz8jakxklg/bin
+9 verbose lifecycle backend@1.0.0~start: CWD: /home/wcvz8jakxklg/public_html/api.infoportal.co.in
+10 silly lifecycle backend@1.0.0~start: Args: [ '-c', 'nodemon app.js' ]
+11 silly lifecycle backend@1.0.0~start: Returned: code: 1  signal: null
+12 info lifecycle backend@1.0.0~start: Failed to exec start script
+13 verbose stack Error: backend@1.0.0 start: `nodemon app.js`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/home/wcvz8jakxklg/.nvm/versions/node/v8.17.0/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at emitTwo (events.js:126:13)
+13 verbose stack     at EventEmitter.emit (events.js:214:7)
+13 verbose stack     at ChildProcess.<anonymous> (/home/wcvz8jakxklg/.nvm/versions/node/v8.17.0/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at emitTwo (events.js:126:13)
+13 verbose stack     at ChildProcess.emit (events.js:214:7)
+13 verbose stack     at maybeClose (internal/child_process.js:915:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+14 verbose pkgid backend@1.0.0
+15 verbose cwd /home/wcvz8jakxklg/public_html/api.infoportal.co.in
+16 verbose Linux 4.18.0-513.18.1.lve.2.el8.x86_64
+17 verbose argv "/home/wcvz8jakxklg/.nvm/versions/node/v8.17.0/bin/node" "/home/wcvz8jakxklg/.nvm/versions/node/v8.17.0/bin/npm" "start"
+18 verbose node v8.17.0
+19 verbose npm  v6.13.4
+20 error code ELIFECYCLE
+21 error errno 1
+22 error backend@1.0.0 start: `nodemon app.js`
+22 error Exit status 1
+23 error Failed at the backend@1.0.0 start script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
